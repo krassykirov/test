@@ -1,0 +1,17 @@
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hey Yo');
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
+
+
+var fs = require('fs');
+
+var contents = fs.readFileSync('package.json').toString();
+console.log(contents);
+
+fs.readFile('package.json', function (err, buf) {
+    console.log(buf.toString());
+});
+
