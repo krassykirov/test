@@ -5,3 +5,4 @@ https://www.npmjs.com/package/k-multer
 https://docs.nodejitsu.com/articles/file-system/
 http://stackoverflow.com/questions/25698176/how-to-set-different-destinations-in-nodejs-using-multer
 https://github.com/expressjs/multer/issues/58#issuecomment-75315556
+https://github.com/jpfluger/multer/blob/examples/multer-upload-files-to-different-directories.md
