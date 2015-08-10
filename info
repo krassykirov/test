@@ -7,3 +7,7 @@ http://stackoverflow.com/questions/25698176/how-to-set-different-destinations-in
 https://github.com/expressjs/multer/issues/58#issuecomment-75315556
 https://github.com/jpfluger/multer/blob/examples/multer-upload-files-to-different-directories.md
 http://www.hacksparrow.com/handle-file-uploads-in-express-node-js.html
+http://www.e-zest.net/blog/how-to-handle-file-upload-with-node-and-express-4-0/
+http://excellencenodejsblog.com/expressjs-file-uploading-gridfs-mongodb/
+http://stackoverflow.com/questions/29452651/express-js-and-multer-how-to-know-when-the-files-are-all-uploaded
+http://stackoverflow.dluat.com/questions/27891999/node-js-upload-with-multer-not-working
