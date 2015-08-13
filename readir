@@ -1,0 +1,15 @@
+var promise = new Future(),
+        dirs = [],
+        stat;
+
+
+    Fs.readdir(Root + p, function(error, files){
+        _.each(files, function(file) {
+            stat = Fs.statSync(file);
+            if ( stat.isDirectory() ) {
+                dirs.push(file);
+            }
+        });
+
+        promise.return(dirs);
+    });
